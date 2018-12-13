@@ -10,7 +10,7 @@ printf "\nWhat is the IP address or Name of the Domain or SMS you want to check?
 read DOMAIN
 
 printf "\nLogging On to API\n"
-mgmt_cli -d $DOMAIN -r true login > id.txt
+mgmt_cli -d $DOMAIN -r true login session-name "API Rulebase Copy Past" session-description "API Script to Copy Paste Existing Rulebase" > id.txt
 
 printf "\nListing potential files for import\n"
 ls |grep .json
