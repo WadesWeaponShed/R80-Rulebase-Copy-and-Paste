@@ -1,9 +1,8 @@
 #!/bin/bash -f
 
 ####################################################################################
-# Original By Nicolas Boissé, SE, Checkpoint software 														 #
-# COPY and PAST function added by Adam Forester, SE, Check Point software   			 #
-####################################################################################                                         #
+# Adam Forester, SE, Check Point software   			                                 #
+####################################################################################
 
 printf  "This script will export a policy to be imported in using a different name\nPress Anykey to continue\n"
 read ANYKEY

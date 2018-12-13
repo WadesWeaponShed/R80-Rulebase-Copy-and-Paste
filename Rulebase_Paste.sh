@@ -1,5 +1,5 @@
 ####################################################################################
-# Original By Nicolas Boissé, SE, Checkpoint software 														 #
+# Digest of json created By Nicolas Boissé, SE, Checkpoint software 							 #
 # COPY and PAST function added by Adam Forester, SE, Check Point software   			 #
 ####################################################################################
 
