@@ -41,7 +41,7 @@ LAYERNAME=$(echo $PACKAGE)
 
 printf "\nCreating policy PACKAGE name $PACKAGE\n"
 mgmt_cli -s id.txt -d $DOMAIN add package name "$PACKAGE" --format json
-#mgmt_cli -s id.txt -d $DOMAIN add access-layer name "$LAYERNAME Network" applications-and-url-filtering true --format json
+
 
 			while [ $RULENUMBER -le $TOTAL ]
 			do
