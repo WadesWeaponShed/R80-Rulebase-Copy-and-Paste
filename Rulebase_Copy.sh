@@ -26,7 +26,7 @@ total=$(mgmt_cli -s id.txt -d $DOMAIN show access-rulebase name "$POL_NAME" --fo
 printf "There are $total rules in the rulebase\n"
 
 printf "\nExport Started\n"
-mgmt_cli -d $DOMAIN -s id.txt show access-rulebase name "$POL_NAME" limit 1500 --format json details-level full >> "$POL2".json
+mgmt_cli -d $DOMAIN -s id.txt show access-rulebase name "$POL_NAME" limit 1500 details-level full session-timeout 3600 --format json >> "$POL2".json
 
 
 printf "\nPolicy ready to import using $POL2.json"
